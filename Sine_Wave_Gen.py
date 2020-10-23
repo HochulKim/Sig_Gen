@@ -26,5 +26,3 @@ with open("output_data.csv","w") as out_file:
         out_string = str(amplitude)
         out_file.write(out_string)
 
-# Comments by Charles Oct/23/2030 : Commit Only
-# Comments by Charles Oct/23/2020 : Commit and Push ! 
