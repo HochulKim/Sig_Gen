@@ -5,15 +5,15 @@ import matplotlib.pyplot as plot
 # Get x values of the sine wave
 time_index = np.arange(0, 65536, 1)
 # Amplitude of the sine wave is sine of a variable like time_index
-amplitude = np.sin(2 * math.pi * 655 / 65536 * time_index);
+amplitude = np.sin(2 * math.pi * 655 / 65536 * time_index)
 
-#Plot a sine wave using time and amplitude obtained for the sine wave
+# Plot a sine wave using time and amplitude obtained for the sine wave
 plot.plot(time_index, amplitude)
 
-#Give a title for the sine wave plot
+# Give a title for the sine wave plot
 plot.title('Sine wave')
 
-#Give x axis label for the sine wave plot
+# Give x axis label for the sine wave plot
 plot.xlabel('Time_index')
 
 # Give y axis label for the sine wave plot
@@ -26,3 +26,4 @@ with open("output_data.csv","w") as out_file:
         out_string = str(amplitude)
         out_file.write(out_string)
 
+# git Test commit Mar/31/2021 8:21am
